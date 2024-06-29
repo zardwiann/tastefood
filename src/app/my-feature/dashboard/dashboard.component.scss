@@ -1,0 +1,89 @@
+.main-cards {
+    background: url('../../../assets/img/bg1.jpg');
+    height: 10cm;
+    border-radius: 25px;
+    background-size: cover;
+
+    h1 {
+        color: white;
+    }
+
+    .header1 {
+        font-size: 50px;
+    }
+
+    .orderbtn {
+        border: none;
+        background-color: #ff5f61;
+    }
+}
+
+
+img {
+    width: 50px;
+}
+
+.card-block {
+    height: 2cm;
+    background-color: #ff5f61;
+    color: white;
+    border: none;
+
+  
+}
+.card-special-menu{
+    height: auto;
+    background-color: white;
+    border: none;
+     
+}
+ .header-3{
+     color: #ff5f61;
+ }
+
+.card-block .active .img-special-menu {
+
+    height: 5cm;
+
+}
+
+.special-menu-item-card {
+    height: auto;
+
+    .addbtn {
+        border: none;
+        border-radius: 25px;
+        width: 40%;
+    }
+
+}
+button{
+    background-color: #ff5f61;
+    color: white;
+    border: none;
+}
+
+.img-current-order {
+    width: 50px;
+}
+
+
+.scroll {
+    overflow-y: auto;
+    height: 1000px;
+   
+}
+.current-order{
+     border: none;
+}
+.col-4{
+  background-color:white;
+  
+}
+
+.category :hover {
+
+    transition: all .1s;
+    transform: scale(1.1);
+}
+ 

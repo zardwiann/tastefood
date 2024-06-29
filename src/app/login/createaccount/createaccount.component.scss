@@ -1,0 +1,28 @@
+.gradient-custom-2 {
+    background: url('https://images.pexels.com/photos/8410318/pexels-photo-8410318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+button {
+    background-color: #ff5f61;
+    color: white;
+    border: none;
+}
+
+.header-3 {
+    color: #ff5f61;
+
+}

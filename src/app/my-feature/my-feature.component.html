@@ -1,0 +1,54 @@
+<!--Main Navigation-->
+<header>
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white shadow-lg border-0 m-3">
+        <div class="position-sticky">
+          
+            <div class="list-group list-group-flush mx-3 ">
+                <div class="text-center">
+                    <img src="../../assets/logo/logo.png" alt=""class=" logo">
+                </div>
+                <a routerLink="dashboard" class="list-group-item list-group-item-action py-2 ripple active" aria-current="true">
+                    <i class="fa fa-home fa-fw me-3" aria-hidden="true"></i><span>Dashboard</span>
+                </a>
+                <a routerLink="menu" class="list-group-item list-group-item-action py-2 ripple ">
+                    <i class="fa fa-bars fa-fw me-3 icon" aria-hidden="true"></i><span>Menu</span>
+                </a>
+                <a routerLink="order" class="list-group-item list-group-item-action py-2 ripple">
+                    <i class="fa fa-shopping-bag fa-fw me-3 icon" aria-hidden="true"></i><span>Orders</span></a>
+                
+           
+                <a routerLink="profile" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-user fa-fw me-3 icon"></i><span>Users</span></a>
+                <a routerLink="/login" class="list-group-item list-group-item-action py-2 ripple">
+                    <i class="fa fa-sign-out fa-fw me-3 icon" aria-hidden="true"></i><span>Log Out</span></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidebar -->
+
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-lg">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" routerLink="dashboard">
+             Taste Food
+            </a>
+            <div class="col-md-12">
+                <input type="text" class="form-control col-md-6 Search" id="exampleInputPassword1" placeholder="Search">
+            </div>
+
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+</header>
+<!--Main Navigation-->
+
+<!--Main layout-->
+<main style="margin-top: 58px;">
+    <div class=" m-5">
+        <router-outlet></router-outlet>
+    </div>
+</main>
+<!--Main layout-->
